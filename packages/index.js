@@ -20,6 +20,19 @@ const components = [
   Skeleton
 ]
 
+//Vue.component 其实就是定义组件的方法
+/**
+ * 
+ * @param {*} Vue 
+ * 
+ * Vue.component('test',{
+ *   data:function(){
+ *     return {count:0}
+ *   },
+ *   template:'<div></div>'
+ * })
+ * 
+ */
 
 const install = function(Vue) {
     if(install.installed) return

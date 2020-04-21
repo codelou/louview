@@ -10,6 +10,7 @@ import '../packages/theme-default/lib/index.css'
 Vue.component('demo-block',demoBlock);
 Vue.use(louView);
 
+// Vue.use ,默认会调用lovView里的install1方法
 
 Vue.config.productionTip = false
 
